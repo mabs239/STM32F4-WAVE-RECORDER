@@ -1,113 +1,113 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DARM_MATH_CM4 -D__FPU_USED -D__FPU_PRESENT=1 -DHSE_VALUE=8000000 -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\usb_lib\otg -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\cmsis -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21 -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\usb_lib -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\usb_conf -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\DevKit407 -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\usb_lib\cdc -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\cmsis_boot -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\cmsis_lib -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21 -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\usb_lib\core -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia -I..\..\..\..\..\Download Zone\GuitarTuner - Kopia21\GuitarTuner - Kopia21\GuitarTuner - Kopia\cmsis_lib\include">
-      <target file="stm32f4xx_fsmc.o" lastModified="146a0eac360">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="141d6df7a00"/>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -g2 -Wall -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DARM_MATH_CM4 -D__FPU_USED -D__FPU_PRESENT=1 -DHSE_VALUE=8000000 -IJ:\AbuBakar\GitHub -IJ:\AbuBakar -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\usb_lib\cdc -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\usb_lib\core -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\DevKit407 -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\cmsis_boot -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\cmsis_lib -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\usb_conf -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\cmsis_lib\include -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\usb_lib\otg -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\usb_lib -IJ:\AbuBakar\GitHub\STM32F4-WAVE-RECORDER\cmsis">
+      <target file="stm32f4xx_fsmc.o" lastModified="14f68c7ed80">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="14f6893eb80"/>
       </target>
-      <target file="syscalls.o" lastModified="146a0eac544">
-         <source file="..\..\..\syscalls\syscalls.c" lastModified="141d6df0ca0"/>
+      <target file="syscalls.o" lastModified="14f68c7eeeb">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14f6893ebc3"/>
       </target>
-      <target file="usbd_usr.o" lastModified="146a0eab890">
-         <source file="..\..\..\usb_conf\usbd_usr.c" lastModified="140dbad4360"/>
+      <target file="usbd_usr.o" lastModified="14f68c7e822">
+         <source file="..\..\..\usb_conf\usbd_usr.c" lastModified="14f6893ebe2"/>
       </target>
-      <target file="stm32f4_discovery.o" lastModified="146a0eabaff">
-         <source file="..\..\..\DevKit407\stm32f4_discovery.c" lastModified="140d56f2630"/>
+      <target file="stm32f4_discovery.o" lastModified="14f68c7e994">
+         <source file="..\..\..\DevKit407\stm32f4_discovery.c" lastModified="14f6893e981"/>
       </target>
-      <target file="arm_cfft_radix4_init_f32.o" lastModified="146a0eacbfe">
-         <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_init_f32.c" lastModified="131655db7d0"/>
+      <target file="arm_cfft_radix4_init_f32.o" lastModified="14f68c7f36e">
+         <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_init_f32.c" lastModified="14f6893e8dc"/>
       </target>
-      <target file="misc.o" lastModified="146a0eac9de">
-         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="141d6df6a60"/>
+      <target file="misc.o" lastModified="14f68c7f1e1">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14f6893eb69"/>
       </target>
-      <target file="arm_max_f32.o" lastModified="146a0eacb60">
-         <source file="..\..\..\DSP\StatisticsFunctions\arm_max_f32.c" lastModified="131655db7d0"/>
+      <target file="arm_max_f32.o" lastModified="14f68c7f2ed">
+         <source file="..\..\..\DSP\StatisticsFunctions\arm_max_f32.c" lastModified="14f6893e821"/>
       </target>
-      <target file="usbd_ioreq.o" lastModified="146a0eacaf8">
-         <source file="..\..\..\usb_lib\core\usbd_ioreq.c" lastModified="140dbad4360"/>
+      <target file="usbd_ioreq.o" lastModified="14f68c7f296">
+         <source file="..\..\..\usb_lib\core\usbd_ioreq.c" lastModified="14f6893ebf8"/>
       </target>
-      <target file="usbd_req.o" lastModified="146a0eac70b">
-         <source file="..\..\..\usb_lib\core\usbd_req.c" lastModified="140dbad4360"/>
+      <target file="usbd_req.o" lastModified="14f68c7f00b">
+         <source file="..\..\..\usb_lib\core\usbd_req.c" lastModified="14f6893ebfd"/>
       </target>
-      <target file="usbd_cdc_core.o" lastModified="146a0eac851">
-         <source file="..\..\..\usb_lib\cdc\usbd_cdc_core.c" lastModified="140dbad4360"/>
+      <target file="usbd_cdc_core.o" lastModified="14f68c7f0d5">
+         <source file="..\..\..\usb_lib\cdc\usbd_cdc_core.c" lastModified="14f6893ebe6"/>
       </target>
-      <target file="usbd_desc.o" lastModified="146a0eac2c6">
-         <source file="..\..\..\usb_conf\usbd_desc.c" lastModified="140dbad4360"/>
+      <target file="usbd_desc.o" lastModified="14f68c7ed15">
+         <source file="..\..\..\usb_conf\usbd_desc.c" lastModified="14f6893ebdd"/>
       </target>
-      <target file="stm32f4xx_exti.o" lastModified="146a0eac968">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="141d6dc0730"/>
+      <target file="stm32f4xx_exti.o" lastModified="14f68c7f198">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14f6893eb79"/>
       </target>
-      <target file="stm32f4xx_gpio.o" lastModified="146a0eac3e7">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="141d6dbf790"/>
+      <target file="stm32f4xx_gpio.o" lastModified="14f68c7edd4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14f6893eb85"/>
       </target>
-      <target file="arm_rfft_f32.o" lastModified="146a0eab96e">
-         <source file="..\..\..\DSP\TransformFunctions\arm_rfft_f32.c" lastModified="131655db7d0"/>
+      <target file="arm_rfft_f32.o" lastModified="14f68c7e8ab">
+         <source file="..\..\..\DSP\TransformFunctions\arm_rfft_f32.c" lastModified="14f6893e95c"/>
       </target>
-      <target file="usb_bsp.o" lastModified="146a0eac663">
-         <source file="..\..\..\usb_conf\usb_bsp.c" lastModified="140dbad4360"/>
+      <target file="usb_bsp.o" lastModified="14f68c7efa0">
+         <source file="..\..\..\usb_conf\usb_bsp.c" lastModified="14f6893ebc9"/>
       </target>
-      <target file="arm_cmplx_mag_f32.o" lastModified="146a0eac242">
-         <source file="..\..\..\DSP\ComplexMathFunctions\arm_cmplx_mag_f32.c" lastModified="131655db7d0"/>
+      <target file="arm_cmplx_mag_f32.o" lastModified="14f68c7ecc6">
+         <source file="..\..\..\DSP\ComplexMathFunctions\arm_cmplx_mag_f32.c" lastModified="14f6893e52c"/>
       </target>
-      <target file="usbd_core.o" lastModified="146a0eabc39">
-         <source file="..\..\..\usb_lib\core\usbd_core.c" lastModified="140dbad4360"/>
+      <target file="usbd_core.o" lastModified="14f68c7ea41">
+         <source file="..\..\..\usb_lib\core\usbd_core.c" lastModified="14f6893ebf1"/>
       </target>
-      <target file="stm32f4xx_usart.o" lastModified="146a0eaba20">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="140dbad4360"/>
+      <target file="stm32f4xx_usart.o" lastModified="14f68c7e916">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14f6893eb9e"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="146a0eabfdb">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="141d6dbe020"/>
+      <target file="stm32f4xx_rcc.o" lastModified="14f68c7eb73">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14f6893eb8c"/>
       </target>
-      <target file="fonts.o" lastModified="146a0eac1ca">
-         <source file="..\..\..\DevKit407\fonts.c" lastModified="1398a9b9e10"/>
+      <target file="fonts.o" lastModified="14f68c7ec7e">
+         <source file="..\..\..\DevKit407\fonts.c" lastModified="14f6893e97a"/>
       </target>
-      <target file="usb_dcd.o" lastModified="146a0eaca77">
-         <source file="..\..\..\usb_lib\otg\usb_dcd.c" lastModified="140dbad4360"/>
+      <target file="usb_dcd.o" lastModified="14f68c7f244">
+         <source file="..\..\..\usb_lib\otg\usb_dcd.c" lastModified="14f6893ec0b"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="146a0eaba74">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="141d6e25860"/>
+      <target file="startup_stm32f4xx.o" lastModified="14f68c7e944">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14f6893ead4"/>
       </target>
-      <target file="usbd_cdc_vcp.o" lastModified="146a0eac46d">
-         <source file="..\..\..\usb_lib\cdc\usbd_cdc_vcp.c" lastModified="140dbad4360"/>
+      <target file="usbd_cdc_vcp.o" lastModified="14f68c7ee21">
+         <source file="..\..\..\usb_lib\cdc\usbd_cdc_vcp.c" lastModified="14f6893ebeb"/>
       </target>
-      <target file="stm32f4xx_dma.o" lastModified="146a0eac5d7">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14639d50bd0"/>
+      <target file="stm32f4xx_dma.o" lastModified="14f68c7ef4d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14f6893eb74"/>
       </target>
-      <target file="arm_cfft_radix4_f32.o" lastModified="146a0eab815">
-         <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_f32.c" lastModified="131655db7d0"/>
+      <target file="arm_cfft_radix4_f32.o" lastModified="14f68c7e7d2">
+         <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_f32.c" lastModified="14f6893e8d8"/>
       </target>
-      <target file="stm32f4xx_crc.o" lastModified="146a0eabb88">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="141d6dbefc0"/>
+      <target file="stm32f4xx_crc.o" lastModified="14f68c7e9d6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="14f6893eb6e"/>
       </target>
-      <target file="stm32f4xx_it.o" lastModified="146a0eac153">
-         <source file="..\..\..\stm32f4xx_it.c" lastModified="146723b9570"/>
+      <target file="stm32f4xx_it.o" lastModified="14f68c7ec37">
+         <source file="..\..\..\stm32f4xx_it.c" lastModified="14f6893ebba"/>
       </target>
-      <target file="stm32f4_discovery_lcd.o" lastModified="146a0eab772">
-         <source file="..\..\..\DevKit407\stm32f4_discovery_lcd.c" lastModified="141d182cbc0"/>
+      <target file="stm32f4_discovery_lcd.o" lastModified="14f68c7e74f">
+         <source file="..\..\..\DevKit407\stm32f4_discovery_lcd.c" lastModified="14f6893e987"/>
       </target>
-      <target file="usb_core.o" lastModified="146a0eab661">
-         <source file="..\..\..\usb_lib\otg\usb_core.c" lastModified="140dbad4360"/>
+      <target file="usb_core.o" lastModified="14f68c7e641">
+         <source file="..\..\..\usb_lib\otg\usb_core.c" lastModified="14f6893ec05"/>
       </target>
-      <target file="arm_common_tables.o" lastModified="146a0eab8f9">
-         <source file="..\..\..\DSP\CommonTables\arm_common_tables.c" lastModified="131655db7d0"/>
+      <target file="arm_common_tables.o" lastModified="14f68c7e861">
+         <source file="..\..\..\DSP\CommonTables\arm_common_tables.c" lastModified="14f6893e4d4"/>
       </target>
-      <target file="stm32f4xx_syscfg.o" lastModified="146a0eab574">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="141d6df6a60"/>
+      <target file="stm32f4xx_syscfg.o" lastModified="14f68c7e58a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14f6893eb98"/>
       </target>
-      <target file="stm32f4xx_spi.o" lastModified="146a0eac8e9">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="141d6dc0f00"/>
+      <target file="stm32f4xx_spi.o" lastModified="14f68c7f139">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14f6893eb93"/>
       </target>
-      <target file="main.o" lastModified="146a0eabf15">
-         <source file="..\..\..\main.c" lastModified="146a0d81c00"/>
+      <target file="main.o" lastModified="14f68c7eafe">
+         <source file="..\..\..\main.c" lastModified="14f6893ebad"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="146a0eac4e3">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="141d5892930"/>
+      <target file="system_stm32f4xx.o" lastModified="14f68c7ee69">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14f6893eb06"/>
       </target>
-      <target file="usb_dcd_int.o" lastModified="146a0eac7b8">
-         <source file="..\..\..\usb_lib\otg\usb_dcd_int.c" lastModified="140dbad4360"/>
+      <target file="usb_dcd_int.o" lastModified="14f68c7f07f">
+         <source file="..\..\..\usb_lib\otg\usb_dcd_int.c" lastModified="14f6893ec10"/>
       </target>
-      <target file="arm_rfft_init_f32.o" lastModified="146a0eac0ad">
-         <source file="..\..\..\DSP\TransformFunctions\arm_rfft_init_f32.c" lastModified="131655db7d0"/>
+      <target file="arm_rfft_init_f32.o" lastModified="14f68c7ebec">
+         <source file="..\..\..\DSP\TransformFunctions\arm_rfft_init_f32.c" lastModified="14f6893e963"/>
       </target>
    </processor>
 </history>
